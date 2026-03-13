@@ -1,0 +1,59 @@
+{
+  "Humidity -\u003e mqtt:topic:02c6d49888:0ae0f3310b:humidity": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "mqtt",
+          "topic",
+          "02c6d49888",
+          "0ae0f3310b",
+          "humidity"
+        ],
+        "uid": "mqtt:topic:02c6d49888:0ae0f3310b:humidity"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "Humidity"
+    }
+  },
+  "Lamp -\u003e mqtt:topic:02c6d49888:0ae0f3310b:lamp": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "mqtt",
+          "topic",
+          "02c6d49888",
+          "0ae0f3310b",
+          "lamp"
+        ],
+        "uid": "mqtt:topic:02c6d49888:0ae0f3310b:lamp"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "Lamp"
+    }
+  },
+  "Temperature -\u003e mqtt:topic:02c6d49888:0ae0f3310b:temperature": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "mqtt",
+          "topic",
+          "02c6d49888",
+          "0ae0f3310b",
+          "temperature"
+        ],
+        "uid": "mqtt:topic:02c6d49888:0ae0f3310b:temperature"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "Temperature"
+    }
+  }
+}

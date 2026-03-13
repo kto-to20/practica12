@@ -1,0 +1,10 @@
+osgi.wiring.package; (osgi.wiring.package=org.openhab.binding.zigbee.console)
+330; version=4.2.1
+osgi.wiring.package; (&(osgi.wiring.package=com.zsmartsystems.zigbee.console.telegesis)(&(version>=1.4.0)(!(version>=2.0.0))))
+323; version=1.4.14
+osgi.wiring.package; (osgi.wiring.package=org.openhab.binding.zigbee.telegesis)
+337; version=4.2.1
+osgi.wiring.package; (osgi.wiring.package=org.openhab.core.thing)
+221; version=4.2.1
+osgi.wiring.package; (&(osgi.wiring.package=com.zsmartsystems.zigbee.console)(&(version>=1.4.0)(!(version>=2.0.0))))
+321; version=1.4.14

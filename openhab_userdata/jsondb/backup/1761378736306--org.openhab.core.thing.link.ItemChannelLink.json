@@ -1,0 +1,135 @@
+{
+  "Humidity -\u003e mqtt:topic:02c6d49888:0ae0f3310b:humidity": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "mqtt",
+          "topic",
+          "02c6d49888",
+          "0ae0f3310b",
+          "humidity"
+        ],
+        "uid": "mqtt:topic:02c6d49888:0ae0f3310b:humidity"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "Humidity"
+    }
+  },
+  "Humidity -\u003e openweathermap:weather-and-forecast:f445c7180a:d9139c1860:current#humidity": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "openweathermap",
+          "weather-and-forecast",
+          "f445c7180a",
+          "d9139c1860",
+          "current#humidity"
+        ],
+        "uid": "openweathermap:weather-and-forecast:f445c7180a:d9139c1860:current#humidity"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "Humidity"
+    }
+  },
+  "Lamp -\u003e mqtt:topic:02c6d49888:0ae0f3310b:lamp": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "mqtt",
+          "topic",
+          "02c6d49888",
+          "0ae0f3310b",
+          "lamp"
+        ],
+        "uid": "mqtt:topic:02c6d49888:0ae0f3310b:lamp"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "Lamp"
+    }
+  },
+  "Outside_Temp -\u003e openweathermap:weather-and-forecast:f445c7180a:d9139c1860:current#temperature": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "openweathermap",
+          "weather-and-forecast",
+          "f445c7180a",
+          "d9139c1860",
+          "current#temperature"
+        ],
+        "uid": "openweathermap:weather-and-forecast:f445c7180a:d9139c1860:current#temperature"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "Outside_Temp"
+    }
+  },
+  "Temperature -\u003e mqtt:topic:02c6d49888:0ae0f3310b:temperature": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "mqtt",
+          "topic",
+          "02c6d49888",
+          "0ae0f3310b",
+          "temperature"
+        ],
+        "uid": "mqtt:topic:02c6d49888:0ae0f3310b:temperature"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "Temperature"
+    }
+  },
+  "Weather_Condition -\u003e openweathermap:weather-and-forecast:f445c7180a:d9139c1860:current#condition": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "openweathermap",
+          "weather-and-forecast",
+          "f445c7180a",
+          "d9139c1860",
+          "current#condition"
+        ],
+        "uid": "openweathermap:weather-and-forecast:f445c7180a:d9139c1860:current#condition"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "Weather_Condition"
+    }
+  },
+  "Weather_LastUpdate -\u003e openweathermap:weather-and-forecast:f445c7180a:d9139c1860:current#time-stamp": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "openweathermap",
+          "weather-and-forecast",
+          "f445c7180a",
+          "d9139c1860",
+          "current#time-stamp"
+        ],
+        "uid": "openweathermap:weather-and-forecast:f445c7180a:d9139c1860:current#time-stamp"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "Weather_LastUpdate"
+    }
+  }
+}

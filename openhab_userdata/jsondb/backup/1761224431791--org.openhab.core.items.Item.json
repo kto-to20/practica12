@@ -1,0 +1,13 @@
+{
+  "Temperature": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "Temperature [%.1f °C]"
+    }
+  }
+}

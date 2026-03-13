@@ -1,0 +1,16 @@
+Strategies {
+  everyMinute : "0 * * * * ?"
+  everyHour   : "0 0 * * * ?"
+  everyDay    : "0 0 0 * * ?"
+  default = everyMinute
+}
+
+Items {
+  Room1_Temp : strategy = everyMinute, everyChange
+  Room2_Temp : strategy = everyMinute, everyChange
+  Room3_Temp : strategy = everyMinute, everyChange
+
+  Room1_Hum  : strategy = everyMinute, everyChange
+  Room2_Hum  : strategy = everyMinute, everyChange
+  Room3_Hum  : strategy = everyMinute, everyChange
+}

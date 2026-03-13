@@ -1,0 +1,73 @@
+{
+  "Barry": {
+    "class": "org.openhab.core.auth.ManagedUser",
+    "value": {
+      "name": "Barry",
+      "passwordHash": "oElYSeNojAqn9t4CAsAWQA3Vbwdi8q+tobgaQZ6QpYrkHgyXLvddsjmiJl5mbXJI+wVTEpj+pC18I4ar727l4Q\u003d\u003d",
+      "passwordSalt": "4ne2g+VQjDI2fBznjgMaBtPDgOghm/SWxCcsKcJM28LCHKS+sgnLI4kVCALSPL+BSQP63JnY3xm7WdWlcU2/5g\u003d\u003d",
+      "roles": [
+        "administrator"
+      ],
+      "sessions": [
+        {
+          "sessionId": "22b26aef-faf4-420c-9b01-4f7c0431c220",
+          "refreshToken": "20bd61a7706d42898de9e73cbc941150",
+          "createdTime": "Oct 23, 2025, 9:51:02 AM",
+          "lastRefreshTime": "Dec 23, 2025, 12:40:29 PM",
+          "clientId": "http://localhost:8080",
+          "redirectUri": "http://localhost:8080",
+          "scope": "admin",
+          "sessionCookie": true
+        },
+        {
+          "sessionId": "a9f3a877-3067-47b4-878e-05cafbedd5c8",
+          "refreshToken": "0845741b4afb464ebac5f7a8fcbf762d",
+          "createdTime": "Dec 22, 2025, 9:46:02 PM",
+          "lastRefreshTime": "Dec 22, 2025, 9:55:50 PM",
+          "clientId": "https://home.myopenhab.org",
+          "redirectUri": "https://home.myopenhab.org",
+          "scope": "admin",
+          "sessionCookie": true
+        },
+        {
+          "sessionId": "d6896d5f-b19a-447d-baaf-c74e5dad9b0d",
+          "refreshToken": "07234e6e6d3a42d0b91b42293d1e7a13",
+          "createdTime": "Dec 22, 2025, 10:17:12 PM",
+          "lastRefreshTime": "Dec 22, 2025, 10:17:12 PM",
+          "clientId": "https://home.myopenhab.org",
+          "redirectUri": "https://home.myopenhab.org",
+          "scope": "admin",
+          "sessionCookie": true
+        },
+        {
+          "sessionId": "a20b2f74-c84e-4839-9d4a-95e74ca11eaa",
+          "refreshToken": "eb22eb6d7b4041d49a094974bfe337ab",
+          "createdTime": "Dec 22, 2025, 10:31:22 PM",
+          "lastRefreshTime": "Dec 22, 2025, 10:31:22 PM",
+          "clientId": "https://home.myopenhab.org",
+          "redirectUri": "https://home.myopenhab.org",
+          "scope": "admin",
+          "sessionCookie": true
+        },
+        {
+          "sessionId": "4b0ff7d4-3329-4539-9b37-77f80dbf834c",
+          "refreshToken": "db78a01748ff4e9d89227967bba33f3a",
+          "createdTime": "Dec 23, 2025, 12:46:23 PM",
+          "lastRefreshTime": "Dec 23, 2025, 12:46:23 PM",
+          "clientId": "http://192.168.0.12:8080",
+          "redirectUri": "http://192.168.0.12:8080",
+          "scope": "admin",
+          "sessionCookie": true
+        }
+      ],
+      "apiTokens": [
+        {
+          "name": "Overlord",
+          "apiToken": "V/slJAQ6kXTDvFT4Yaf3u1Ob8h5trdz1qrDSUDx3HL+Lut91Klrloe9iya0wL4GWTphNbyoQLw6pZ4BPWx0BVA\u003d\u003d:uSFSWVIvbiQex3y9FM4jq2U3sqzSSS6WC+26Yw/jpddNgeJ1KHjsLFJtGblPa7cWH61sjoomEgCCONxez4dyTQ\u003d\u003d",
+          "createdTime": "Dec 22, 2025, 9:55:48 PM",
+          "scope": ""
+        }
+      ]
+    }
+  }
+}

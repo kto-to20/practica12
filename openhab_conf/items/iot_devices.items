@@ -1,0 +1,7 @@
+Number Temperature "Temperature [%.1f °C]"
+Number Humidity "Humidity [%.1f %%]"
+Number LightLevel "Light [%d lx]"
+
+Switch Zigbee_Light "Zigbee Light"
+Switch Zigbee_Fan "Zigbee Fan"
+Switch Zigbee_Socket "Zigbee Socket"

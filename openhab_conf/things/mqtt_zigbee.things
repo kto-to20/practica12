@@ -1,0 +1,23 @@
+Bridge mqtt:broker:mosquitto "MQTT Broker" [
+ host="localhost",
+ port=1883,
+ secure=false,
+ clientID="openhab"
+] {
+
+ Thing topic temperature "MQTT Temperature Sensor" {
+   Channels:
+     Type number : temp "Temperature" [ stateTopic="home/sensor/temperature" ]
+ }
+
+ Thing topic humidity "MQTT Humidity Sensor" {
+   Channels:
+     Type number : hum "Humidity" [ stateTopic="home/sensor/humidity" ]
+ }
+
+ Thing topic light "MQTT Light Sensor" {
+   Channels:
+     Type number : light "Light Level" [ stateTopic="home/sensor/light" ]
+ }
+
+}
